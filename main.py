@@ -29,7 +29,7 @@ if length % 3 == 0: # Translating the number into octal system
     n_2_replaced = n_2_replaced.replace('110', '6')
     n_2_replaced = n_2_replaced.replace('111', '7')
     n_2_replaced = n_2_replaced.replace(' ', '')
-    print('Octal system:', n_2_replaced)
+    print('Octal notation:', n_2_replaced)
 elif length % 3 != 0:
     l = 0
     while length % 3 != 0:
@@ -57,7 +57,7 @@ elif length % 3 != 0:
     n_2_replaced = n_2_replaced.replace(' ', '')
     if n_2_replaced[0] == '0':
         n_2_replaced = n_2_replaced.replace('0', '')
-    print('Octal system:', n_2_replaced)
+    print('Octal notation:', n_2_replaced)
 
 if length % 4 == 0: # Translating the number into hexademical system
     n = 0
@@ -85,7 +85,7 @@ if length % 4 == 0: # Translating the number into hexademical system
     n_2_replaced = n_2_replaced.replace('1110', 'E')
     n_2_replaced = n_2_replaced.replace('1111', 'F')
     n_2_replaced = n_2_replaced.replace(' ', '')
-    print('Hexademical system:', n_2_replaced)
+    print('Hexademical notation:', n_2_replaced)
 elif length % 4 != 0:
     l = 0
     while length % 4 != 0:
@@ -122,7 +122,7 @@ elif length % 4 != 0:
     n_2_replaced = n_2_replaced.replace(' ', '')
     if n_2_replaced[0] == '0':
         n_2_replaced = n_2_replaced.replace('0', '')
-        print('Hexademical system:', n_2_replaced)
+    print('Hexademical notation:', n_2_replaced)
 
 
 
